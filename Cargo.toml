@@ -48,3 +48,6 @@ glib = { git = "https://github.com/gtk-rs/glib" }
 
 [dev-dependencies]
 gir-format-check = "^0.1"
+
+[patch.'https://github.com/gtk-rs/glib']
+glib = { path = "../glib" }
